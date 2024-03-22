@@ -29,7 +29,7 @@ P_ans = simplify(P_ans(1:3,:))
 %% 结果检验
 syms x y z;
 x = P_ans(1);
-y = P_ans(2)
+y = P_ans(2);
 z = P_ans(3);
 
 t1 = 0;
